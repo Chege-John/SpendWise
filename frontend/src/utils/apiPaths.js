@@ -1,4 +1,6 @@
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://spendwise-backend-b6mt.onrender.com";
+
+// http://localhost:8000
 
 // utils/apiPaths.js
 export const API_PATHS = {
