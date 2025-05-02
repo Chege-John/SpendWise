@@ -13,7 +13,7 @@ const app = express();
 // Middleware to handle CORS
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "*", // Allow requests from your frontend URL
+    origin: "https://spend-wise-r44g.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // If you're handling cookies or authentication tokens
